@@ -1,4 +1,4 @@
-/*4.	Para el departamento de iluminación:
+/*4.	Para el depaººrtamento de iluminación:
 Tomando en cuenta que todas las lámparas están en oferta al mismo precio de $35 pesos final.
 A.	Si compra 6 o más  lamparitas bajo consumo tiene un descuento del 50%. 
 B.	Si compra 5  lamparitas bajo consumo marca "ArgentinaLuz" se hace un descuento del 40 % y si es de otra marca el descuento es del 30%.
@@ -10,5 +10,32 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
+ var cantidad;
+ var lamp =35;
+ var lamp6om = lamp * 0.50;
+ var ArgentinaLuz5 = lamp * 0.40;
+
+ var resultado
+ var precioDes;
+ cantidad = document.getElementById('Cantidad').value;
+ lamp = parseInt(lamp);
+ 
+
+ switch(lamp)
+ {  case 3:
+ 	{ precioDes = (cantidad * lamp) * 0.15;
+ 	document.getElementById('precioDescuento').value = precioDes;
+ 	break;
+
+ }
  	
+ }
+
+ }
+
+ 
+
+ 	
+ }
+
 }
